@@ -86,3 +86,20 @@ body {
   top: 15px;
   transform: rotate(-45deg);
 }
+
+#searchbar{
+     padding:15px;
+     border-width: 1px;
+     border-left-width: 0px;
+     border-right-width: 0px;
+     width: 100%;
+     
+   }
+
+  #list{
+    font-size:  1.5em;
+   }
+
+.clothes{
+   display: none;
+  }
