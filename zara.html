@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="zaraprojektstyle.css">
+    <link rel="stylesheet" href="zara.css">
     <head>
         <title>Zara</title>
       </head>
@@ -23,8 +23,18 @@
           <label for="menu-toggle" class="menu-toggle">
             <span></span>
             <span></span>
-            <span></span>
           </label>
         </div>
+          <input id="searchbar" onkeyup="search_clothes()" type="text"
+        name="search" placeholder="Search..">
+          
+            <ol id='list'>
+        <li class="clothes">Shoes</li>
+        <li class="clothes">Shirts</li>
+        <li class="clothes">Jeans</li>
+    </ol>
+
+          <script src="zara.js"></script>
+
       </body>
       </html>
