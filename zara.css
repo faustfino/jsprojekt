@@ -8,16 +8,6 @@ body {
     max-width: 250px;
 }
 
-h1 { font-family:"/Users/camillepoznanski/Downloads/OPTIBodoni-Antiqua.otf";
-    font-size: 800%;
-    font-style: thin;
-    font-weight: normal;
-    letter-spacing: -0.2em;
-    line-height: 0.32;
-  vertical-align: middle;
-  text-transform: uppercase;
-}
-
 nav {
   text-align: end;
     margin-right: 10px;
@@ -37,9 +27,7 @@ nav ul li {
   display: inline;
 }
 
-body {
-  margin: 0;
-}
+
 
 .hamburger-menu {
   position: absolute;
@@ -84,13 +72,13 @@ body {
   opacity: 0;
 }
 
-#searchbar{
+#search{
      padding:20px;
     padding-left: 30px;
      border-width: 1px;
      border-left-width: 0px;
      border-right-width: 0px;
-     width: 97%;
+     width: 100%;
      outline: none;
     font-size: 0.7em;
     text-transform: uppercase;
@@ -104,3 +92,65 @@ body {
 .clothes{
    display: none;
   }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style:normal;
+    text-decoration: none;
+  }
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.container .img-wraper img{
+  border: 1px solid black;
+  width: 100%;
+}
+
+.container .img-wraper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:0px;
+  flex-wrap: wrap;
+
+}
+
+.container .img-wraper .box{
+  flex: 0 0 200px
+}
+
+
+.search {
+  display: inline-block;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  margin: 30px 0px;
+
+}
+
+.search input {
+  width: 50%;
+  border: 1px solid black;
+  padding: 7px;
+  text-align: left;
+
+}
+
+
+
+
+
+
+
+  
