@@ -32,13 +32,10 @@ text-decoration: none;
 }
 
 nav ul li {
+    margin-right: 30px;
   list-style-type: none;
   display: inline;
-  word-spacing: 2em;
 }
-
-
-
 
 body {
   margin: 0;
