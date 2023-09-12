@@ -20,7 +20,7 @@ h1 { font-family:"/Users/camillepoznanski/Downloads/OPTIBodoni-Antiqua.otf";
 
 nav {
   text-align: end;
-    margin-rigt: 10px;
+    margin-right: 10px;
 }
 
 nav a {
@@ -28,7 +28,7 @@ color: black;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 font-style: normal;
 text-decoration: none;
-    font-sixe: 0.7em;
+    font-size: 0.7em;
 }
 
 nav ul li {
